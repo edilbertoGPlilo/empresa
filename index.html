@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="crear_empleado.php" method="POST">
+<h1>REGISTAR EMPLEADO</h1>
+<table  border=3>
+ <tr>
+     <td><label for="nombre">Nombre </label> </td>
+     <td><input type="text" name ="nombre"></td>
+ </tr>
+  <tr>
+     <td><label for="apellido">Apellido </label> </td>
+     <td><input type="text" name ="apellido"></td>
+ </tr>
+  <tr>
+     <td><label for="puesto">Puesto </label> </td>
+     <td><input type="text" name ="puesto"></td>
+ </tr>
+ <tr>
+     <td><label for="edad">Edad </label> </td>
+     <td><input type="number" name ="edad"></td>
+ </tr>
+</table>
+
+<h1>REGISTAR DIRECCION</h1>
+<table  border=3>
+ <tr>
+     <td><label for="calle">Calle </label> </td>
+     <td><input type="number" name ="calle"></td>
+ </tr>
+  <tr>
+     <td><label for="carrera">Carrera </label> </td>
+     <td><input type="number" name ="carrera"></td>
+ </tr>
+  <tr>
+     <td><label for="numero">Numero </label> </td>
+     <td><input type="text" name ="numero"></td>
+ </tr>
+ <tr>
+     <td><label for="barrio">Barrio </label> </td>
+     <td><input type="text" name ="barrio"></td>
+ </tr>
+ <tr>
+     <td><label for="ciudad">Ciudad </label> </td>
+     <td><input type="text" name ="ciudad"></td>
+ </tr>
+
+ <tr>
+    <td><input type="submit" value="Registrar"></td>
+</tr>
+</table>
+
+</form>
+<br>
+<form action="consulta.php" method="POST">
+
+  <input type="submit" value="Consultar">
+
+</form>
+
+</body>
+</html>
